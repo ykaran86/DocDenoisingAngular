@@ -1,0 +1,47 @@
+.body {
+  height: 100%;
+  width: 100%;
+  background-color: lavender;
+}
+
+.title-row {
+  background-color: antiquewhite;
+  padding: 50px;
+}
+
+.title-box-bg {
+  background-image: url("../../assets/bg.jpg");
+  padding: 0;
+  border-radius: 10px;
+}
+
+.title-box {
+  width: 100%;
+  padding: 80px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: navajowhite;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main-row {
+  background-color: honeydew;
+  padding: 70px 0 100px 0;
+}
+
+#upload-btn {
+  background-color: lightseagreen;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+#upload-btn:hover {
+    opacity: 0.8;
+}
+
+.denoising-msg {
+  margin-top: 25px;
+  color: chocolate;
+}
